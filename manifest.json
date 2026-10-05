@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "corentin.todo",
+  "name": "Todo",
+  "version": "1.0.0",
+  "author": "corentin",
+  "description": "Todo list with a task popup",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml"
+  },
+  "barWidget": {
+    "displayName": "Todo",
+    "description": "Todo list with a task popup",
+    "category": "Productivity",
+    "allowMultiple": false
+  }
+}
